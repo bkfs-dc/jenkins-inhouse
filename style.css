@@ -1,0 +1,13 @@
+/* Custom style for Jenkins Platform */
+#jenkins-name-icon{bottom: -1px;left: -45px;}
+.logo img{content:url("/userContent/layout/logo.png");}
+.logo span{display: none;}
+.logo:after{content: 'dcbuild';
+font-weight: bold;
+font-size: 20px;
+margin-left: 45px;
+vertical-align: -70%;
+//color: white;
+position: relative;}
+#jenkins-head-icon{display: none;left: -100px;}
+#open-blueocean-in-context{display: none;}
